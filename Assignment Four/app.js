@@ -26,19 +26,19 @@ var $Rule_5
 
 //Declaration of Five (5) Illegal Variables
 
-var var = 40  
-// Variables should not be JS Keyword
+// var var = 40  
+// // Variables should not be JS Keyword
 
-var 1myvariable =  
-//Not start with anumber
+// var 1myvariable =  
+// //Not start with anumber
 
-var my variable =  
-//Space
+// var my variable =  
+// //Space
 
-var myVariable! =  
-//Special character
+// var myVariable! =  
+// //Special character
 
-var function =  
+// var function =  
 // JavaScript keyword !!!
 
 
