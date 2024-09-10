@@ -110,7 +110,7 @@ var computer = 55
 var totalMarks = 100
 
 
-document.write("<h1>Subject  Total Marks  </h1>")
-document.write("Islamiat" + "         " + "</br>")
-document.write("Urdu" + "         " + "</br>")
-document.write("Computer" + "         " + "</br>")
+document.write("<h1>Subject  Total Marks  Obtained Marks  Percentage</h1>")
+document.write("Islamiat" + totalMarks + "</br>")
+document.write("Urdu" + "</br>")
+document.write("Computer" + "</br>")
