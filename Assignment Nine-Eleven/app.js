@@ -70,3 +70,10 @@
 //     alert(`Car is smaller than Cat`)
 // }
 
+
+// Task # 06
+var userInputNumberEng = +prompt(`Enter Your Obtained Marks and Total marks are ${100}`) +prompt(`Enter Your Obtained Marks and Total marks are ${100}`) +prompt(`Enter Your Obtained Marks and Total marks are ${100}`)
+if (userInputNumberEng >= 80) {
+    document.write(`<h1>Marks Sheet</h1>`)
+    document.write()
+}
