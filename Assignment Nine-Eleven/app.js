@@ -71,9 +71,51 @@
 // }
 
 
-// Task # 06
-var userInputNumberEng = +prompt(`Enter Your Obtained Marks and Total marks are ${100}`) +prompt(`Enter Your Obtained Marks and Total marks are ${100}`) +prompt(`Enter Your Obtained Marks and Total marks are ${100}`)
-if (userInputNumberEng >= 80) {
-    document.write(`<h1>Marks Sheet</h1>`)
-    document.write()
+// // Task # 06
+// var totalMarksSubjects = (300)
+// var userInputEng = +prompt(`Enter Your Obtained Marks in English Subject and Total marks are ${100}`)
+// var userInputUrdu = +prompt(`Enter Your Obtained Marks in Urdu Subject and Total marks are ${100}`)
+// var userInputMath = +prompt(`Enter Your Obtained Marks in Mathematics , and Total marks are ${100}`)
+// var ObtainedMarks = (userInputEng + userInputUrdu + userInputMath)
+// var percentage = (ObtainedMarks / totalMarksSubjects * 100)
+
+// document.write(`<h1>Marks Sheet</h1> </br>`)
+// document.write(`Total Marks : ` + totalMarksSubjects + `</br>`)
+// document.write("Obtained Marks : " + ObtainedMarks + `</br>`)
+// document.write("Percentage : " + percentage + "%" + `</br>`)
+
+// if (percentage >= 80) {
+//     document.write("Grade : A-One" + `</br>`)
+//     document.write("Remarks : Excellent" + `</br>`)
+// }
+// if (percentage >= 70) {
+//     document.write("Grade : A" + `</br>`)
+//     document.write("Remarks : Good" + `</br>`)
+// }
+// if (percentage >= 60) {
+//     document.write("Grade : B" + `</br>`)
+//     document.write("Remarks : You Need to Improve" + `</br>`)
+// }
+// if (percentage <= 50) {
+//     document.write("Grade : Fail" + `</br>`)
+//     document.write("Remarks : Sorry" + `</br>`)
+// }
+
+// Task 07 Guess Game
+// // a
+// var randomNumber = 7;
+// var guessNumber = prompt("Guess the Number Between 1 to 10")
+// if(guessNumber == randomNumber){
+//     alert(`"Bingo! Correct answer".`)
+// }
+// // b
+// if(guessNumber == randomNumber + 1){
+//     alert(`"Close Enough to the Corect answer".`)
+// }
+
+// Task 08
+var divsiblebyThree = 3 / prompt("Enter the number that you want to multiply by three...")
+var possible = (divsiblebyThree)
+if(divsiblebyThree == possible){
+    alert("Good")
 }
