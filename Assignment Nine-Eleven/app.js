@@ -114,8 +114,19 @@
 // }
 
 // Task 08
-var divsiblebyThree = 3 / prompt("Enter the number that you want to multiply by three...")
-var possible = (divsiblebyThree)
-if(divsiblebyThree == possible){
-    alert("Good")
+// var isDivisibleByThree = +prompt("Enter the number that you want to Divide by three (3)...")
+// var ifDivided = isDivisibleByThree * 3
+// console.log(ifDivided)
+// if (ifDivided / 3) {
+//     alert("This is the answer")
+// } else {
+//     alert("Error...")
+// }
+
+// Task # 09
+var userInput = +prompt("Enter Random Number...")
+if (userInput % 2 == 0) {
+    document.write(userInput + " is Even Number")
+} else {
+    document.write(userInput + " is Odd Number")
 }
