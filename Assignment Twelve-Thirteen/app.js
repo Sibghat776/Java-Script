@@ -24,3 +24,30 @@
 // else {
 //     console.log(inputChar + " is not a number or letter.");
 // }
+
+
+// // Task # 02
+// var integer1 = prompt("Enter the Number you want")
+// var integer2 = prompt("Enter the Number you want")
+
+// if (integer1 > integer2) {
+//     alert("First integer is bigger than Second integer")
+// } else if (integer1 < integer2) {
+//     alert("First integer is smaller than Second integer")
+// } else if (integer1 == integer2) {
+//     alert("Both integers are equal ....")
+// }
+
+
+// Task # 03
+var userInputNumber = +prompt("Enter a random number with any operator you want...")
+
+if (userInputNumber == -userInputNumber) {
+    alert("The Number is Negative")
+}
+else if (userInputNumber) {
+    alert("The Number is Positive")
+}
+else if (userInputNumber === 0) {
+    alert("The Number is Zero...")
+}
