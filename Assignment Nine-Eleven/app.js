@@ -123,10 +123,32 @@
 //     alert("Error...")
 // }
 
-// Task # 09
-var userInput = +prompt("Enter Random Number...")
-if (userInput % 2 == 0) {
-    document.write(userInput + " is Even Number")
-} else {
-    document.write(userInput + " is Odd Number")
-}
+// // Task # 09
+// var userInput = +prompt("Enter Random Number...")
+// if (userInput % 2 == 0) {    // % -->> Modulus Divided userInput Number into 2 
+//     document.write(userInput + " is Even Number")
+// } else {
+//     document.write(userInput + " is Odd Number")
+// }
+
+
+// // Task # 10
+// var userInputTemperature = +prompt("cneti Grade kia chal raha ha ???")
+// if (userInputTemperature >= 40) {
+//     alert("It is too Hot Outside")
+// } else if (userInputTemperature >= 30) {
+//     alert("The Wether today is normal")
+// } else if (userInputTemperature >= 20) {
+//     alert("Today Wether is cool")
+// } else if (userInputTemperature <= 10) {
+//     alert("OMG ! Today Wether is so Cool")
+// }
+
+
+// // Task # 11
+// var userCalculation = +prompt("Enter the Number that you want to plus in another number"),
+//     userCalculation2 = +prompt("Enter the Number that you want to plus in first number")
+// if (userCalculation + userCalculation2) {
+//     document.write(userCalculation + userCalculation2)
+// }
+
