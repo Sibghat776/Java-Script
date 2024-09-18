@@ -35,19 +35,19 @@
 // } else if (integer1 < integer2) {
 //     alert("First integer is smaller than Second integer")
 // } else if (integer1 == integer2) {
-//     alert("Both integers are equal ....")
+//     alert("Both integers are equal ....")  
 // }
 
 
 // Task # 03
 var userInputNumber = +prompt("Enter a random number with any operator you want...")
 
-if (userInputNumber == -userInputNumber) {
-    alert("The Number is Negative")
-}
-else if (userInputNumber) {
+if (userInputNumber > 0) {
     alert("The Number is Positive")
+}
+else if (userInputNumber < 0) {
+    alert("This Number is Negative")
 }
 else if (userInputNumber === 0) {
     alert("The Number is Zero...")
-}
+} 
