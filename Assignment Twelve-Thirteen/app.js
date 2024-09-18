@@ -39,15 +39,60 @@
 // }
 
 
-// Task # 03
-var userInputNumber = +prompt("Enter a random number with any operator you want...")
+// // Task # 03
+// var userInputNumber = +prompt("Enter a random number with any operator you want...")
 
-if (userInputNumber > 0) {
-    alert("The Number is Positive")
-}
-else if (userInputNumber < 0) {
-    alert("This Number is Negative")
-}
-else if (userInputNumber === 0) {
-    alert("The Number is Zero...")
-} 
+// if (userInputNumber > 0) {
+//     alert("The Number is Positive")
+// }
+// else if (userInputNumber < 0) {
+//     alert("This Number is Negative")
+// }
+// else if (userInputNumber === 0) {
+//     alert("The Number is Zero...")
+// }
+
+// // Task 04
+// var vowels = prompt("Enter A Vowel Word")
+// if (vowels === "A" ||vowels === "E" ||vowels === "I" ||vowels === "O" ||vowels === "U") {
+//     alert("True")
+// } else {
+//     alert("false")
+// }
+
+
+// // Task 05
+// var password = prompt("Enter first password")
+// if (password === "") {
+//     alert("Please Enter your Password")
+// } 
+// var confirmPassword = prompt("Enter Confirm password")
+// if (confirmPassword === password) {
+//     alert("Correct! The password you entered matches the original password...")
+// } else {
+//     alert("Incorrect Password !!!")
+// }
+
+// // Task 06
+// var greeting;
+// var hour = prompt("What hour is you are in");
+
+// if (hour < 18) {
+//     greeting = ("Good day");
+// } else {
+//     greeting = ("Good evening");
+// }
+
+// // Task 07
+// var time = prompt("Enter the time in this format -->> 1900"),
+// exactTime = 1900
+// if (time >= 0 && time < 1200) {
+//     alert("Good Morning")
+// } else if (time >= 1200 && time < 1200) {
+//     alert("Good Afternoon")
+// } else if (time >= 1700 && time < 2100) {
+//     alert("Good Evening")
+// } else if (time >= 2100 && time < 2360) {
+//     alert("Good Night")
+// }
+
