@@ -70,17 +70,29 @@
 // document.write("Orderd Score of Students : " + sortNumbers);
 
 
-// Task 11
+// // Task 11
+// var cities = ["Karachi" , "Islamabad" , "Hyderabad" , "Khuzdaar" , "Thatta" , "Quetta" , "Peshawar"]
+// var selectedCities = [cities.slice(0 , 3)]
+// console.log(selectedCities)
 
 
+// // Task 12
+// var joinSentence = ["Asslam u alaikum" , "Jani" , "Kia" , "Haal" , "ha???"]
+// console.log(joinSentence)
+// console.log(joinSentence.join(" "))
 
 
+// // Task 13
+// var que = [];
 
+// que.push("First")
+// que.push("Second")
+// que.push("Third")
 
+// console.log(que)
 
+// console.log(que.shift())
+// console.log(que.shift())
+// console.log(que.shift())
 
-
-
-
-
-
+// console.log(que)
