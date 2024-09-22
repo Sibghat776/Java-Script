@@ -8,6 +8,3 @@ fruits[7] = `Strawberry`
 console.log(fruits[0])
 
 console.log(fruits)
-
-
-
