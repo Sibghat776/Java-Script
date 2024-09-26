@@ -28,10 +28,7 @@
 // for (i = 1; i <= 10; i++) {
 //     console.log(userTableInput*i)
 // }
- 
 
-
-// // Task 05
 // var userTableInput = +prompt("Enter length Multiplication table...")
 // for (i = 1; i <= userTableInput; i++) {
 //     console.log(2*i)
@@ -39,8 +36,44 @@
 
 
 
-// Task 06
-let 
+// // Task 05
+// let fruits = ["Apple", "Banana", "Mango", "Orange", "Strawberry"]
+// for (i = 0; i < fruits.length; i++) {
+//     console.log("Element at Index " + i + " is " + fruits[i])
+// }
+
+
+
+
+// // Task 06
+// document.write("Counting : ")
+// for (i = 0; i <= 15; i++) {
+//     document.write(i + "</br>")
+// }
+
+// document.write("</br>")
+
+// document.write("Reverse Counting : ")
+// for (i = 15; i >= 0; i--) {
+//     document.write(i + "</br>");
+// }
+
+// document.write("</br>")
+
+document.write("Even Numbers : ")
+for (i = 2; i <= 20; i += 2) {
+    document.write(i + "</br>")
+}
+
+document.write("</br>")
+
+
+
+document.write("Odd Numbers : ")
+for (i = 1; i <= 20; i += 2) {
+    document.write(i + "</br>")
+}
+
 
 
 
