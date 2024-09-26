@@ -81,49 +81,13 @@
 
 
 
-// // Task 07
-const A = ["cake", "apple pie", "cookie", "patties", "bread", "cake Rusk"];
+// // // Task 07  
 
-const userInput = prompt("Enter the item you want to search:");
-
-const searchTerm = userInput.toLowerCase();
-
-let found = false;
-let index = -1;
-
-// Use a for loop to iterate over the array
-for (let i = 0; i < A.length; i++) {
-    if (A[i].toLowerCase() === searchTerm) {
-        found = true;
-        index = i; 
-        break; 
-    }
+// Task 10
+var multiple5 = 100;
+for (i = 5; i <= multiple5; i += 5){
+    console.log(i)
 }
-
-if (found) {
-    alert(`${userInput} is found in the list at index ${index}.`);
-} else {
-    alert(`${userInput} is not found in the list.`);
-}
-
-
-
-// Task 08
-var largeNumber = [24, 53, 78, 91, 12, 100]
-document.write("Array Items : " + largeNumber.join(" "))
-var num = largeNumber[0]
-console.log(num)
-document.write("</br>" + "The Largest Number is : ")
-for (let i = 1; i < largeNumber.length; i++) {
-    if (largeNumber[i] > num) {
-        num = largeNumber[i]; // Update smallest if a smaller number is found
-    }
-}
-
-document.write(num)
-
-
-
 
 
 
