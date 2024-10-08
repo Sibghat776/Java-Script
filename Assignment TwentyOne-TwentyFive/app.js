@@ -46,7 +46,27 @@
 
 
 
-// Task # 06
+// // Task # 06
+// let fullName =  `Sibghat Ullah`;
+// alert(`Asslam u alaikum Sir ! ` + fullName);
+
+
+
+
+// // Task # 07
+// document.write(`City : `)
+// let Hyderabad = (`Hyderabad`)
+// document.write(Hyderabad)
+
+// document.write(`</br>`)
+
+// var Islamabad = Hyderabad.replace("Hyder", "Islam")
+
+// document.write(`</br>`)
+
+// document.write(`After Replacement : ${Islamabad}`)
+
+
 
 
 
