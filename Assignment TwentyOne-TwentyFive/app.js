@@ -124,27 +124,47 @@
 
 
 
-// Task # 14
-let bakeryItems = ["cake" , "apple pie" , "cookies" , "chips" , "patties"];
-let userInput = prompt("Bhai sab aapko hamare bakery se kia chahiye??").toLowerCase();
-let found = false;
+// // Task # 14
+// let bakeryItems = ["cake" , "apple pie" , "cookies" , "chips" , "patties"];
+// let userInput = prompt("Bhai sab aapko hamare bakery se kia chahiye??").toLowerCase();
+// let found = false;
 
-for (i = 0; i < bakeryItems.length; i++) {
-    if (bakeryItems[i].toLowerCase() == userInput.toLowerCase()) {
-        document.write(`Apka Order ${userInput} counter no ${[i]} per Avaiable ha`);
-        found = true;
-        break;
-    }
-}
+// for (i = 0; i < bakeryItems.length; i++) {
+//     if (bakeryItems[i].toLowerCase() == userInput.toLowerCase()) {
+//         document.write(`Apka Order ${userInput} counter no ${[i]} per Avaiable ha`);
+//         found = true;
+//         break;
+//     }
+// }
 
-if (!found) {
-    document.write(`${userInput} is not Available at our bakery`)
-}
-
-
+// if (!found) {
+//     document.write(`${userInput} is not Available at our bakery`)
+// }
 
 
 
+
+
+// // Task # 15
+// let password = prompt("Enter your password:");
+
+// let startsWithNumber = isNaN(password.charAt(0)); // Check if the first character is a number
+// let containsOnlyAlphabetsAndNumbers = /^[a-zA-Z0-9]+$/.test(password); // Regular expression to check only alphabets and numbers
+// let passwordLength = password.length() = 7
+
+// if (startsWithNumber && containsOnlyAlphabetsAndNumbers && passwordLength) {
+//     document.write("Invalid password! It should start with a number and contain only alphabets and numbers.");
+// } else {
+//     document.write("Password is valid.");
+// }
+
+
+
+
+
+// Task # 16 
+let university = "University of Karachi"
+document.write(university.join("</br> "))
 
 
 
