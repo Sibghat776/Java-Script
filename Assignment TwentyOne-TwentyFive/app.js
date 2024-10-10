@@ -110,8 +110,39 @@
 
 
 
-// Task # 13
-let userInput = prompt("Enter your Name");
+// // Task # 13
+// let userName = prompt("Enter your username:");
+// let sanitizedUserName = userName.replace(/[@.,!]/g, "");
+
+// if (sanitizedUserName.length !== userName.length) {
+//     alert("Invalid username! Please do not use special symbols like @, ., , or !");
+// } else {
+//     document.write("Welcome, " + userName + "!");
+// }
+
+
+
+
+
+// Task # 14
+let bakeryItems = ["cake" , "apple pie" , "cookies" , "chips" , "patties"];
+let userInput = prompt("Bhai sab aapko hamare bakery se kia chahiye??").toLowerCase();
+let found = false;
+
+for (i = 0; i < bakeryItems.length; i++) {
+    if (bakeryItems[i].toLowerCase() == userInput.toLowerCase()) {
+        document.write(`Apka Order ${userInput} counter no ${[i]} per Avaiable ha`);
+        found = true;
+        break;
+    }
+}
+
+if (!found) {
+    document.write(`${userInput} is not Available at our bakery`)
+}
+
+
+
 
 
 
