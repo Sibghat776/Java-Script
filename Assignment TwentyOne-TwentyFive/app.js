@@ -162,9 +162,35 @@
 
 
 
-// Task # 16 
-let university = "University of Karachi"
-document.write(university.join("</br> "))
+// // Task # 16 
+// let university = "U n i v e r s i t y  o f  K a r a c h i"
+// let separate = university.split(" ");
+
+// for (i = 0; i < separate.length; i++) {
+//     document.write(separate[i] + "</br>");
+// }
+
+
+
+
+
+// // Task # 17
+// let userInput = prompt("Enter your Name OR Your city Name OR Your Father Name And I wil Display the last word of your Input");
+// document.write(`User Input : ${userInput + "</br>"}`);
+// document.write(`Last word of Input : ${userInput.charAt(userInput.length - 1)}`);
+
+
+
+
+
+// // Task # 18
+// let sentence = "The quick brown fox jumps over the lazy dog. The The the the the the the".toLowerCase();
+// let wordFind = sentence.split("the").length - 1;
+
+// document.write(`The Word ${"'the'"} appears ${wordFind} times.`);
+
+
+
 
 
 
