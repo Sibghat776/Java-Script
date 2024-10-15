@@ -34,21 +34,21 @@
 // let days = new Date().getDay();
 
 // if (days == 0 || days == 6) {   
-//     alert("It's Fun day")
+//     alert("It's Fun day");
 // } else {
-//     alert("It's Week day")
+//     alert("It's Week day");
 // }
 
 
 
- 
+
 
 // // Task # 05
-// let month = new Date().getMonth()
+// let month = new Date().getMonth();
 // if (month <= 15) {
-//     alert(`First Fifteen days of the month`)
+//     alert(`First Fifteen days of the month`);
 // } else if (month >= 16) {
-//     alert(`Last Fifteen days of the month`)
+//     alert(`Last Fifteen days of the month`);
 // }
 
 
@@ -96,8 +96,8 @@
 
 // // Task # 10
 // var startingOf2015 = new Date("january 1, 2015");
-// document.write(`On Reference Date : ${startingOf2015 + "<br>"}`)
-// document.write(`${startingOf2015.getTime() / 1000} : Seconds has passed since January 1, 2015`)
+// document.write(`On Reference Date : ${startingOf2015 + "<br>"}`);
+// document.write(`${startingOf2015.getTime() / 1000} : Seconds has passed since January 1, 2015`);
 
 
 
@@ -105,7 +105,7 @@
 
 // // Task # 11
 // var currentDate = new Date();
-// document.write(`Current Date and Time : ${currentDate + "<br>"}`)
+// document.write(`Current Date and Time : ${currentDate + "<br>"}`);
 // currentDate.setHours(currentDate.getHours() - 1);
 // document.write("Aaj ki date aur ek ghanta peeche:", currentDate);
 
@@ -113,11 +113,43 @@
 
 
 
-// Task # 12
-var currentDate = new Date();
-document.write(`Current Date and Time : ${currentDate + "<br>"}`)
-currentDate.setFullYear(currentDate.getFullYear() - 100);
-document.write("100 Years Back : ", currentDate);
+// // Task # 12
+// var currentDate = new Date();
+// document.write(`Current Date and Time : ${currentDate + "<br>"}`);
+// currentDate.setFullYear(currentDate.getFullYear() - 100);
+// document.write("100 Years Back : ", currentDate);
 
 
 
+
+
+// // Task # 13
+// let userAge = +prompt("Enter your age?");
+// document.write(`User Age : ${userAge + "<br>"}`);
+// document.write(`User Birth year : ${new Date().getFullYear() - userAge}`);
+
+
+
+
+
+
+
+// // Task # 14
+// const months = [
+//     "January", "February", "March", "April", "May", "June",
+//     "July", "August", "September", "October", "November", "December"
+// ];
+// var chargesPerUnit = 16;
+// var numberOfUnits = +prompt("Enter the units");
+// var amountInDueDate = numberOfUnits * chargesPerUnit;
+
+// var userName = prompt("Enter your Name");
+// document.write(`<h1>K-Electric Bill</h1> </br>`);
+// document.write(`Customer Name : ${userName + "<br>"}`);
+// document.write(`Month : ${months[new Date().getMonth()] + "<br>"}`);
+// document.write(`Number of Units : ${numberOfUnits + "<br>"}`);
+// document.write(`Charges per Unit : ${chargesPerUnit + "<br>"}`);
+// document.write("<br>");
+// document.write(`Net Amount Payable (With in due Date) : ${amountInDueDate + "<br>"}`);
+// document.write(`Late Payment Surcharge : ${350 + "<br>"}`);
+// document.write(`Gross Amount payable (After Due Date) : ${amountInDueDate + 350 + "<br>"}`);
