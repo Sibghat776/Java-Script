@@ -5,3 +5,10 @@ let students = [
     {id: 4, name: "Safi", score: 75, favoriteSubject: "Urdu"},
     {id: 5, name: "Shahzaib", score: 95, favoriteSubject: "Sindhi"}
 ]
+
+let updatedStudents = students.map(function (std) {
+    return {
+        ...std,
+        
+    }
+})
