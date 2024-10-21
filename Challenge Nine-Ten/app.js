@@ -26,3 +26,12 @@ let specificID = students.find(function (SpecificStd) {
 });
 
 console.log(specificID);
+
+//Reduce
+let averageScore = students.reduce(function (total, std) {
+    console.log(total, "==> Total");
+    console.log(std, "==> std");
+    return (total += std.score)
+}, 0);
+console.log(averageScore, "==> Average Score");
+

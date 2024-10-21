@@ -35,9 +35,36 @@
 
 // Task # 04
 function calculate(num1, num2, operation) {
-    switch
-} 
+    let result;
+    switch (re) {
+        case "+":
+            result = num1 + num2;
+        case "-":
+            result = num1 + num2;
+        case "*":
+            result = num1 + num2;
+        case "/":
+            result = num1 + num2;
+            break;
 
-let num1 = +prompt("Enter a Number")
-let num2 = +prompt("Enter Second Number")
-let operation = prompt("Enter Operation that you want to do with the Numbers")
+        default: "Erroe ! please enter a valid operator";
+            break;
+    };
+    return result;
+};
+
+
+let num1 = +prompt("Enter a Number");
+let num2 = +prompt("Enter Second Number");
+let operation = prompt("Enter Operation that you want to do with the Numbers");
+
+calculate(num1, num2, operation);
+document.write("Result: " + result)
+
+
+
+
+
+
+
+
