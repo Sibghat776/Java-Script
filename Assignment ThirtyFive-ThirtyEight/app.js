@@ -34,34 +34,58 @@
 
 
 // Task # 04
-function calculate(num1, num2, operation) {
-    let result;
-    switch (re) {
-        case "+":
-            result = num1 + num2;
-        case "-":
-            result = num1 + num2;
-        case "*":
-            result = num1 + num2;
-        case "/":
-            result = num1 + num2;
-            break;
+// function calculate(num1, num2, operator) {
+//     let result;
 
-        default: "Erroe ! please enter a valid operator";
-            break;
-    };
-    return result;
-};
+//     if (operator === '+') {
+//         result = num1 + num2;
+//     } else if (operator === '-') {
+//         result = num1 - num2;
+//     } else if (operator === '*') {
+//         result = num1 * num2;
+//     } else if (operator === '/') {
+//         result = num1 / num2;
+//     } else {
+//         result = 'Invalid operator';
+//     }
 
+//     document.write("The result is: " + result);
+// }
 
-let num1 = +prompt("Enter a Number");
-let num2 = +prompt("Enter Second Number");
-let operation = prompt("Enter Operation that you want to do with the Numbers");
+// let num1 = parseFloat(prompt("Enter the first number:"));
+// let num2 = parseFloat(prompt("Enter the second number:"));
+// let operator = prompt("Enter the operator (+, -, *, /):");
 
-calculate(num1, num2, operation);
-document.write("Result: " + result)
+// calculate(num1, num2, operator);
 
 
+
+
+
+// Task # 05
+// let userInput = +prompt("Enter a number and i will square it.")
+// function square(userNumber) {
+//     return userNumber*userNumber;
+// };
+
+// document.write(`Square of user Input : ${square(userInput)}`);
+
+
+
+
+
+// Task # 06
+// function factorial(n) {
+//     if (n === 0 || n === 1) {
+//         return 1; // Base case: 0! = 1! = 1
+//     }
+//     return n * factorial(n - 1); // Recursive case
+// }
+
+// // Example usage
+// let num = parseInt(prompt("Enter a number:"));
+// let result = factorial(num);
+// document.write("The factorial of " + num + " is: " + result);
 
 
 
