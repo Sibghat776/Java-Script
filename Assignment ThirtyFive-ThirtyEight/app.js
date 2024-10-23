@@ -74,7 +74,7 @@
 
 
 
-// Task # 06
+// // Task # 06
 // function factorial(n) {
 //     if (n === 0 || n === 1) {
 //         return 1; // Base case: 0! = 1! = 1
@@ -89,6 +89,31 @@
 
 
 
+
+
+// // Task # 07
+// function displayNumbersBetween(firstNumber, lastNumber) {
+//     if (firstNumber < lastNumber) {
+//         document.write("Numbers between " + firstNumber + " and " + lastNumber + ":<br>");
+//         for (let i = firstNumber + 1; i < lastNumber; i++) {
+//             document.write(i + "<br>");
+//         }
+//     } else {
+//         document.write("The first number should be smaller than the last number.");
+//     }
+// }
+
+// let firstNumber = parseInt(prompt("Enter the first number:"));
+// let lastNumber = parseInt(prompt("Enter the last number:"));
+
+// displayNumbersBetween(firstNumber, lastNumber);
+
+
+
+
+
+
+// Task # 08
 
 
 
