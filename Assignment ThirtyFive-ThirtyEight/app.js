@@ -146,5 +146,87 @@
 
 
 
-// Task # 10
+// // Task # 10
+// function isPalindrome(str) {
+//     // Convert the string to lowercase and remove non-alphanumeric characters
+//     let cleanedStr = str.toLowerCase().replace(/[^a-z0-9]/g, '');
+//     // Compare the cleaned string to its reverse
+//     return cleanedStr === cleanedStr.split('').reverse().join('');
+// }
+
+// // Example usage:
+// console.log(isPalindrome("A man, a plan, a canal, Panama")); // true
+// console.log(isPalindrome("hello")); // false
+
+
+
+
+
+
+
+// // Task # 11
+// function toTitleCase(str) {
+//     // Convert the input to lowercase and split into words
+//     let words = str.toLowerCase().split(' ');
+//     let titleCasedStr = "";
+
+//     for (let i = 0; i < words.length; i++) {
+//         // Capitalize the first letter of each word and add it to the result string
+//         titleCasedStr += words[i].charAt(0).toUpperCase() + words[i].slice(1);
+//         if (i < words.length - 1) {
+//             titleCasedStr += " "; // Add a space between words
+//         }
+//     }
+
+//     return titleCasedStr;
+// }
+
+// // Get input from the user
+// let userInput = prompt("Enter a string to convert to title case:");
+// let titleCased = toTitleCase(userInput);
+
+// // Display the result
+// document.write("Title Case: " + titleCased);
+
+
+
+
+
+
+// Task # 12
+function findLongestWord(str) {
+    // Split the string into an array of words
+    let words = str.split(' ');
+    let longestWord = "";
+
+    // Loop through each word
+    for (let i = 0; i < words.length; i++) {
+        // If the current word is longer than the longestWord, update longestWord
+        if (words[i].length > longestWord.length) {
+            longestWord = words[i];
+        }
+    }
+
+    return longestWord;
+}
+
+// Example usage:
+let userInput = prompt("Enter a sentence to find the longest word:");
+let longestWord = findLongestWord(userInput);
+document.write("Longest Word: " + longestWord);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
