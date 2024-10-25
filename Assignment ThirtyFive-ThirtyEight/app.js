@@ -113,7 +113,38 @@
 
 
 
-// Task # 08
+// // Task # 08
+// function calculateHypotenuse(base, perpendicular) {
+//     function square(number) {
+//         return number * number;
+//     }
+    
+//     let hypotenuseSquared = square(base) + square(perpendicular);
+//     let hypotenuse = Math.sqrt(hypotenuseSquared);
+    
+//     return hypotenuse;
+// }
+
+// // Example usage:
+// let base = +prompt("Enter a number");
+// let perpendicular = +prompt("Enter Second number");
+// let hypotenuse = calculateHypotenuse(base, perpendicular);
+// document.write("The hypotenuse is: " + hypotenuse);
 
 
+
+
+
+// // Task # 09
+// function calculateArea(height, width){
+//     return height * width
+// }
+// let height = 10;
+// document.write(`The Area of a trianglr is : ${calculateArea(height, 20)}`);
+
+
+
+
+
+// Task # 10
 
